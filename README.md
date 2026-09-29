@@ -5,6 +5,8 @@ Classification binaire (bénigne / malveillante) d'URLs avec Python, pandas et s
 ## Données
 Dataset Kaggle "Malicious URLs dataset" (651 191 URLs). Les classes phishing, defacement et malware sont regroupées en "malveillante" (1) ; "benign" = 0 (428 103 bénignes, 223 088 malveillantes).
 
+Dataset : [Malicious URLs dataset (Kaggle)](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset), environ 651 000 URLs classées en benign, phishing, defacement et malware.
+
 ## Méthode
 - 8 features extraites de l'URL : longueur, nombre de points, de tirets, de chiffres, de slashs, présence de "@", d'une adresse IP, de mots suspects.
 - Séparation 80 % entraînement / 20 % test, arbre de décision (DecisionTreeClassifier).
